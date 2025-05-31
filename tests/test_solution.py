@@ -12,7 +12,7 @@ class TestSolution(unittest.TestCase):
             nums = [2,7,11,15]
             target = 9
             self.assertEqual(
-                Solution.twoSum( nums, target ),
+                Solution().twoSum( nums, target ),
                 [0, 1]
             )
     """
